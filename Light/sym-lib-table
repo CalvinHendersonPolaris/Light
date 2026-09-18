@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LED")(type "KiCad")(uri "C:/Users/cahender/OneDrive - Polaris Inc/Documents/GitHub/Light/Components/JB2835BWT_G_U27EA0000_N000P001/KiCADv6/2026-09-18_16-18-51.kicad_sym")(options "")(descr ""))
+)
