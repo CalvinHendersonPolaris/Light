@@ -1496,6 +1496,17 @@
 		)
 		(uuid "3302e575-a963-44ee-af31-f0a560d63034")
 	)
+	(text "# LED Brightness Calculation\n\n- LED brightness (relative luminous flux) is directly proportional to Forward Current\n\n- I_led = V_led_string / R\n- I_led = (V_vehicle - 3 * V_led_f) / R\n\n## Max\n\n- I_led_max = (V_vehicle_max - 3 * V_led_f) / R\n- I_led_max = (16 - 3 * 2.67) / 100\n- I_led_max = 79.9mA\n\n## Min\n\n- I_led_min = (V_vehicle_min - 3 * V_led_f) / R\n- I_led_min = (10 - 3 * 2.67) / 100\n- I_led_min = 19.9mA\n\n# LED Specifications\n\n- typical flux: 33lm\n- forward current max: 480mA\n- forward current target: 100mA\n   - target chosen for long lifespan and brightness and heat dissipation\n- 55mA is 100% flux\n\n# Total String Brightness\n\n- if all at 55mA\n    - 33lm * 3 * 8\n    - 792lm"
+		(exclude_from_sim no)
+		(at 195.58 122.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ff377ee-e8aa-4423-8d34-874b4be51ebb")
+	)
 	(text "- bulk capacitance 100u\n- slight filtering with a 1u and 100n\n- TVS for general transiets, clamp above 35V load dump\n\n"
 		(exclude_from_sim no)
 		(at 22.352 43.688 0)
